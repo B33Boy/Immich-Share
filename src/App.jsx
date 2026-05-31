@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div style={{ maxWidth: 480, margin: '0 auto' }}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '1rem 1.5rem', borderBottom: '1px solid #eee' }}>
-        <span style={{ fontWeight: 500 }}>📷 Immich Share</span>
+        <span style={{ fontWeight: 500 }}>Immich Share</span>
         <button onClick={() => setUser(null)} style={{ fontSize: 13, color: '#888', background: 'none', border: 'none', cursor: 'pointer' }}>
           {user.name} · Sign out
         </button>
